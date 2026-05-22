@@ -1,0 +1,447 @@
+# =========================
+# FULL AI + FRONTEND ROADMAP
+# React + RAG + LangChain + LangGraph + Vector DB
+# =========================
+
+========================================================
+# 1. REACT ROADMAP
+========================================================
+
+PHASE 0 — Prerequisites
+- JavaScript basics
+- ES6+ features
+- Async JS (promises, async/await)
+- DOM basics
+- Arrays (map/filter/reduce)
+- Objects, functions
+- Modules
+- Event loop
+- Closures, scope, this
+
+PHASE 1 — React Fundamentals
+1. What is React
+2. Environment setup (Node, Vite)
+3. JSX
+4. Components
+5. Props
+6. Rendering UI
+7. Events
+8. State (useState)
+9. Forms
+10. Lifecycle (conceptual)
+
+PHASE 2 — Hooks
+11. useEffect
+12. useRef
+13. useMemo
+14. useCallback
+15. React.memo
+16. Custom Hooks
+17. useReducer
+18. useContext
+
+PHASE 3 — Architecture
+19. Design patterns
+20. State lifting
+21. Component communication
+22. Styling (CSS, Tailwind)
+23. Assets
+
+PHASE 4 — Routing
+24. React Router basics
+25. Nested routes
+26. Navigation
+
+PHASE 5 — Data Fetching
+27. Fetch API
+28. Axios
+29. Async UI states
+30. React Query (TanStack Query)
+
+PHASE 6 — State Management
+31. Redux
+32. Redux Toolkit
+33. Zustand
+34. Jotai/Recoil
+
+PHASE 7 — Performance
+35. Reconciliation
+36. Memoization
+37. Lazy loading
+38. Virtualization
+
+PHASE 8 — Advanced React
+39. Error boundaries
+40. Portals
+41. HOC
+42. Render props
+43. Concurrent React
+44. Suspense
+
+PHASE 9 — Testing
+45. Jest
+46. React Testing Library
+47. Cypress / Playwright
+
+PHASE 10 — TypeScript
+48. TS basics
+49. React + TS
+
+PHASE 11 — Frameworks
+50. Next.js
+51. Remix
+
+PHASE 12 — Production
+52. Auth (JWT, OAuth)
+53. Authorization
+54. Env variables
+55. Deployment
+56. Security
+57. Accessibility
+
+PHASE 13 — System Design
+58. Architecture
+59. Design systems
+60. Monorepos
+61. Micro frontends
+
+PHASE 14 — Internals
+62. Fiber architecture
+63. React internals
+64. Build your own React
+
+PHASE 15 — Projects
+- Todo app
+- Dashboard
+- SaaS app
+- Chat app
+- Full-stack system
+
+========================================================
+# 2. RAG ROADMAP
+========================================================
+
+PHASE 0 — Foundations
+1. What is RAG
+2. NLP basics
+3. Information retrieval
+4. Vector math
+
+PHASE 1 — Embeddings
+5. Embeddings
+6. Models (BERT, transformers)
+7. Optimization
+8. Similarity search
+
+PHASE 2 — Chunking
+9. Chunking basics
+10. Chunking strategies
+11. Metadata design
+
+PHASE 3 — Vector DB
+12. Vector DB basics
+13. FAISS
+14. Pinecone
+15. Chroma
+16. Weaviate/Qdrant/Milvus
+
+PHASE 4 — Retrieval
+17. Retrieval pipeline
+18. Sparse search (BM25)
+19. Hybrid search
+20. Multi-query retrieval
+21. Parent-child retrieval
+
+PHASE 5 — Re-ranking
+22. Cross encoders
+23. RRF
+24. ColBERT
+
+PHASE 6 — LLM Integration
+25. Prompt engineering for RAG
+26. Context window optimization
+27. Hallucination control
+
+PHASE 7 — Advanced RAG
+28. Conversational RAG
+29. Agentic RAG
+30. Graph RAG
+31. Multi-hop RAG
+32. Self-RAG
+33. CRAG
+
+PHASE 8 — Multimodal RAG
+34. Image RAG
+35. PDF RAG
+36. Audio/Video RAG
+
+PHASE 9 — Evaluation
+37. Recall/precision
+38. MRR/NDCG
+39. LLM-as-judge
+
+PHASE 10 — Production
+40. Scaling retrieval
+41. Latency optimization
+42. Real-time indexing
+43. Cost optimization
+44. Security (prompt injection)
+
+PHASE 11 — Observability
+45. Logging
+46. Tracing
+47. Evaluation pipelines
+
+PHASE 12 — Frameworks
+48. LangChain
+49. LangGraph
+50. LlamaIndex
+
+PHASE 13 — Build From Scratch
+51. Embeddings engine
+52. Vector DB
+53. Retriever system
+54. Full RAG system
+
+PHASE 14 — Future
+55. Memory systems
+56. Neural retrieval
+57. Autonomous RAG
+
+========================================================
+# 3. LANGCHAIN ROADMAP
+========================================================
+
+PHASE 0 — Foundations
+1. What is LangChain
+2. LLM basics
+3. Architecture
+
+PHASE 1 — Core
+4. Models
+5. Prompts
+6. Output parsers
+7. Messages
+8. LCEL
+
+PHASE 2 — Chains
+9. Sequential chains
+10. Router chains
+11. Transform chains
+
+PHASE 3 — Retrieval
+12. Loaders
+13. Splitters
+14. Embeddings
+15. Vector stores
+16. Retrievers
+17. RetrievalQA
+
+PHASE 4 — Memory
+18. Memory basics
+19. Buffer memory
+20. Vector memory
+
+PHASE 5 — Agents
+21. Agents intro
+22. Tools
+23. Agent executor
+24. ReAct agents
+25. Function calling agents
+26. Multi-agent systems
+
+PHASE 6 — RAG Advanced
+27. Hybrid retrieval
+28. Query rewriting
+29. Re-ranking
+30. Citation systems
+
+PHASE 7 — Execution
+31. Streaming
+32. Async
+33. Batch processing
+
+PHASE 8 — Structured Output
+34. Pydantic
+35. JSON mode
+36. Guardrails
+
+PHASE 9 — Deployment
+37. LangServe
+38. FastAPI integration
+
+PHASE 10 — Observability
+39. LangSmith
+40. Debugging
+
+PHASE 11 — Architecture
+41. Graph workflows
+42. HITL systems
+43. Stateful systems
+
+PHASE 12 — Internals
+44. Runnables
+45. Callbacks
+46. Middleware
+
+PHASE 13 — Advanced Agents
+47. Planning agents
+48. Self-reflection
+49. Autonomous agents
+
+PHASE 14 — Production Systems
+50. Enterprise systems
+51. Distributed workflows
+52. AI orchestration
+
+========================================================
+# 4. LANGGRAPH ROADMAP
+========================================================
+
+PHASE 0 — Foundations
+1. Why LangGraph
+2. Graph theory
+3. State machines
+
+PHASE 1 — Core
+4. StateGraph
+5. Nodes
+6. Edges
+7. Conditional edges
+
+PHASE 2 — Execution
+8. Cycles
+9. Parallel execution
+10. Streaming graphs
+
+PHASE 3 — State
+11. Shared state
+12. Typed state
+13. Persistent state
+
+PHASE 4 — Agents
+14. ReAct agents
+15. Multi-agent graphs
+16. Supervisor systems
+17. Planner-executor
+
+PHASE 5 — HITL
+18. Human-in-loop
+19. Interrupts
+20. Review workflows
+
+PHASE 6 — Advanced
+21. Reflection loops
+22. Self-improving agents
+23. Long-running agents
+24. Graph RAG
+
+PHASE 7 — Production
+25. Checkpointing
+26. Observability
+27. Scaling
+28. Deployment
+
+PHASE 8 — Internals
+29. Runtime engine
+30. Event system
+31. Graph compiler
+
+PHASE 9 — Systems
+32. Cognitive architectures
+33. Agent OS
+34. Distributed agents
+
+========================================================
+# 5. VECTOR DATABASE ROADMAP
+========================================================
+
+PHASE 0 — Foundations
+1. Why vector DBs
+2. What is a vector
+3. Similarity metrics
+
+PHASE 1 — Core Problem
+4. Nearest neighbor search
+5. ANN
+6. Search pipeline
+
+PHASE 2 — Indexing
+7. Flat index
+8. Trees
+9. HNSW
+10. IVF
+11. PQ
+12. IVF-PQ
+
+PHASE 3 — Systems
+13. FAISS
+14. Chroma
+15. Pinecone
+16. Weaviate
+17. Qdrant
+18. Milvus
+
+PHASE 4 — Data
+19. Metadata design
+20. Chunking
+21. Multi-vector docs
+22. Hybrid storage
+
+PHASE 5 — Querying
+23. Query embedding
+24. Top-K retrieval
+25. Filtering
+26. Hybrid search
+27. Re-ranking
+
+PHASE 6 — Scaling
+28. Sharding
+29. Replication
+30. Distributed ANN
+31. Caching
+32. Streaming ingestion
+
+PHASE 7 — Performance
+33. Latency optimization
+34. Memory optimization
+35. GPU acceleration
+36. Index tuning
+
+PHASE 8 — Advanced
+37. Multi-query search
+38. Contextual retrieval
+39. Graph + vector search
+40. Temporal search
+
+PHASE 9 — Production
+41. Observability
+42. Evaluation metrics
+43. A/B testing
+44. Failure handling
+
+PHASE 10 — Security
+45. Prompt injection
+46. Access control
+
+PHASE 11 — System Design
+47. Architecture
+48. CAP tradeoffs
+49. Cost optimization
+
+PHASE 12 — Build From Scratch
+50. Embedding store
+51. ANN index
+52. Query engine
+53. Mini vector DB
+
+PHASE 13 — Research
+54. Learned indexes
+55. Neural retrieval
+56. Differentiable search
+57. Scaling laws
+
+PHASE 14 — Future
+58. AI-native DBs
+59. Memory DBs
+60. Unified retrieval systems

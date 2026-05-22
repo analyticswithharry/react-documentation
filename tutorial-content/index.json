@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "react-quickstart",
+    "url": "https://react.dev/learn",
+    "html_bytes": 265032,
+    "md_bytes": 13049
+  },
+  {
+    "slug": "react-thinking",
+    "url": "https://react.dev/learn/thinking-in-react",
+    "html_bytes": 285163,
+    "md_bytes": 21291
+  },
+  {
+    "slug": "react-state",
+    "url": "https://react.dev/learn/state-a-components-memory",
+    "html_bytes": 346563,
+    "md_bytes": 20926
+  },
+  {
+    "slug": "react-effects",
+    "url": "https://react.dev/learn/synchronizing-with-effects",
+    "html_bytes": 510972,
+    "md_bytes": 41657
+  },
+  {
+    "slug": "react-context",
+    "url": "https://react.dev/learn/passing-data-deeply-with-context",
+    "html_bytes": 353127,
+    "md_bytes": 19772
+  },
+  {
+    "slug": "react-reducer",
+    "url": "https://react.dev/learn/extracting-state-logic-into-a-reducer",
+    "html_bytes": 372246,
+    "md_bytes": 19277
+  },
+  {
+    "slug": "devhints-react",
+    "url": "https://devhints.io/react",
+    "html_bytes": 175137,
+    "md_bytes": 14287
+  },
+  {
+    "slug": "react-tutorial-app",
+    "url": "https://react-tutorial.app/",
+    "html_bytes": 31171,
+    "md_bytes": 4669
+  },
+  {
+    "slug": "react-ts-cheatsheet",
+    "url": "https://react-typescript-cheatsheet.netlify.app/",
+    "html_bytes": 14048,
+    "md_bytes": 599
+  },
+  {
+    "slug": "react-native",
+    "url": "https://reactnative.dev/",
+    "html_bytes": 312598,
+    "md_bytes": 2796
+  },
+  {
+    "slug": "react-admin",
+    "url": "https://marmelab.com/react-admin/Tutorial.html",
+    "html_bytes": 179567,
+    "md_bytes": 43912
+  },
+  {
+    "slug": "mui",
+    "url": "https://mui.com/material-ui/",
+    "html_bytes": 475712,
+    "md_bytes": 7100
+  }
+]
