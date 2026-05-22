@@ -17,13 +17,13 @@ export default function Layout() {
             </span>
             <div className="app-footer-credits">
               <a
-                href="https://instagram.com/analyticswithharty"
+                href="https://instagram.com/analyticswithharry"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="app-footer-link"
               >
                 <FiInstagram aria-hidden="true" />
-                <span>@analyticswithharty</span>
+                <span>@analyticswithharry</span>
               </a>
               <span className="app-footer-sep">&bull;</span>
               <span className="app-footer-org">
