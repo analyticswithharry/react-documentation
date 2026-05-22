@@ -2067,8 +2067,18 @@ code {
 }
 
 .app-footer-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
   color: #334155;
   font-weight: 500;
+}
+
+.app-footer-brand-mark {
+  color: #4338ca;
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
 }
 
 .app-footer-credits {

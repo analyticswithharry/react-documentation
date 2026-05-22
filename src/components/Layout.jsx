@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import { FiInstagram, FiBriefcase } from "react-icons/fi";
+import { FiInstagram, FiBriefcase, FiBookOpen } from "react-icons/fi";
 import Sidebar from "./Sidebar";
 
 export default function Layout() {
@@ -13,6 +13,10 @@ export default function Layout() {
         <footer className="app-footer">
           <div className="app-footer-inner">
             <span className="app-footer-brand">
+              <FiBookOpen
+                aria-hidden="true"
+                className="app-footer-brand-mark"
+              />
               React Beginner Lab &middot; Offline study companion
             </span>
             <div className="app-footer-credits">
